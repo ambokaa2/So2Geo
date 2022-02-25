@@ -179,7 +179,7 @@ form .action input{
   border-radius: 4px;
   border: 1px solid white;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 600;
   height: 44px;
   letter-spacing: 3px;
@@ -221,5 +221,8 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
   form .action input{
     margin-bottom: 10px;
     width: 100%;
+  }
+  .icons{
+    margin-left: 130px;
   }
 }
