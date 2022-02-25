@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>So2Geo</title>
-  <link rel="stylesheet" href="registracia.css" />
   <link
     rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-    crossorigin="anonymous"
-  />
+    crossorigin="anonymous"/>
+  <meta charset="utf-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="registracia.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav>
@@ -26,19 +29,29 @@
     </ul>
  </nav>
     <!--repsonisasf-->
-    
     <form action="https://formspree.io/f/xgedkpdb" method="POST" class="box">
-      <div class="container">
-        <div class="contact-box">
-          <div class="left"></div>
-          <div class="right">
-            <h2>ტურნირზე რეგისტაცია</h2>
-            <input name="Name" type="text" class="field" placeholder="სახელი" autocomplete="off" required>
-            <input name="Email" type="email" class="field" placeholder="ემაილი" autocomplete="off" required>
-            <textarea name="Message" placeholder="როსტერი" class="field" required></textarea>
-            <button class="btn">გაგზავნა</button>
-          </div>
+    <form action="">
+      <div class="title">
+        <h2>CONTACT</h2>
+      </div>
+      <div class="half">
+        <div class="item">
+          <input name="Name" type="text" placeholder="სახელი" autocomplete="off" required></label>
+        </div>
+        <div class="item">
+          <input name="Email" type="email" placeholder="ემაილი" autocomplete="off" required></label>
         </div>
       </div>
+      <div class="full">
+        <textarea name="Message" placeholder="როსტერი" required></textarea>
+      </div>
+      <div class="action">
+        <input type="submit" value = "SEND MESSAGE">
+        <input type="reset" value = "RESET">
+      </div>
+      <div class="icons">
+        <a href="https://www.facebook.com/groups/2236942286463131" class = "fa fa-facebook"></a>
+      </div>
+    </form>
 </body>
 </html>
