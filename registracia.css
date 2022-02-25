@@ -116,9 +116,10 @@ input[type="checkbox"]{
 	height: 100%;
 	left: 0;
 	top: 0;
+	z-index: -1;
 }
 .contact-box{
-	max-width: 950px;
+	max-width: 850px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
@@ -137,7 +138,6 @@ input[type="checkbox"]{
 
 .right{
 	padding: 25px 40px;
-  display: block;
 }
 
 h2{
@@ -198,13 +198,11 @@ textarea{
     background-color: #fff;
 }
 
-@media all  and (max-width: 880px){
+@media screen and (max-width: 880px){
 	.contact-box{
-    min-width: 300px;
-    width: 800px;
 		grid-template-columns: 1fr;
+    min-width: 300px;
     z-index: -2;
-    
 	}
 	.left{
 		height: 200px;
