@@ -345,7 +345,8 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: url('https://pbs.twimg.com/profile_images/1021795176300380160/R2DFDXee.jpg');
+    background-image: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/274458211_494002225466299_394808936849245803_n.jpg?stp=dst-jpg_p206x206&_nc_cat=105&ccb=1-5&_nc_sid=aee45a&_nc_ohc=ZS1tfEgxcawAX--ePZl&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVImKROLqX-EjOV2P1kKnpZqskB9-GzNFFf6lCPwO27zow&oe=624056AE');
+    background-size: 100%;
   }
   
   .fa-layer-group,
@@ -634,5 +635,7 @@
       width: 100%;
     }
   }
+
+  
 
   
